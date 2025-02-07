@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+
+        .one {
+            font-size: 30px;
+            text-align: center;
+            
+            justify-content: space-between;
+            align-items: center;
+            display: flex;
+         }
+         .one a{
+            text-decoration: none;
+            color:black;
+            font-size: 20px;
+         }
+         .one a:hover{
+            color:brown;
+         }
+
+        div.one {
+            position: sticky;
+            top: 0;
+            border: 1 solid;
+        }
+
+        ul {
+            list-style-type: none;
+            display: flex;
+            gap: 20px;
+            color: black;
+        } 
+        .background{
+            background-image: url(./assets/images/food\ image.jfif);
+            background-repeat: no-repeat;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+             background-size: cover;
+             
+
+        }
+        .h1{
+            text-align: center;
+            color: white;
+            margin: 250px auto;
+            font-size: 70px;
+            
+        }
+        button{
+            height:40px;
+            width:80px;
+            background-color:rgb(155, 154, 154);
+            border-radius: 20%;
+            border: none;
+         }
+        button a{
+            text-decoration: none;
+            color:black;
+         }
+        footer ul{
+            display: flex;
+            gap:30px;
+            margin-left: 45%;
+            margin-top: 10px;
+            padding: 20px;
+        }
+        footer p{
+            text-align: center;
+            margin-right:30px;
+        }
+        footer a{
+            text-decoration: none;
+            color:brown;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="one">
+            <h1>FOOD</h1>
+            <ul>
+                <a href=""><li>HOME</li></a>
+                <a href=""> <li>ABOUT</li></a>
+               <a href=""><li>CONTACT</li></a>
+               <a href="">BOOK</a>
+             </ul>
+        </div>
+    </header>
+    <div class="background">
+    <div  class="h1">
+        <h1>THE ART OF FOOD</h1>
+        <p>PHOTOGRAPY</p>
+        <button value="view"><a href="food.html">view more</a></button>
+    </div>
+    </div>
+    <footer>
+        <ul>
+            <li><a href="">
+                <img src="assets/images/facebookimage.jfif" alt="facebookimage" height="20px" width="30px"></a></li>
+            <li>    
+                <a href="">
+                <img src="assets/images/instgram image.jfif" alt="instgramimage" height="20px" width="30px"></a></li>
+            <li>
+                <a href="">
+                <img src="assets/images/twitter image.png" alt="twitterimage" height="20px" wigth="30px">
+                </a>
+            </li>
+        </ul>
+        <p>2035 by The Art of Food. Powered and secured by <a href=""> Wix</a></p>
+    </footer>
+</body>
+</html>
