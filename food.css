@@ -1,0 +1,14 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+.container{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    padding:20px;
+    row-gap:20px;
+}
+.container img{
+    height:500px;
+    width:500px;
+}
